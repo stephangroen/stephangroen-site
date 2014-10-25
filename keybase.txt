@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/stephangroen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://stephangroen.nl
+  * I am stephangroen (https://keybase.io/stephangroen) on keybase.
+  * I have a public key with fingerprint C7FB 51D4 6DB3 C900 5A20  DAB3 5672 7761 7C20 A4EC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "c7fb51d46db3c9005a20dab3567277617c20a4ec",
+            "host": "keybase.io",
+            "key_id": "567277617c20a4ec",
+            "uid": "4692cb19ba538a89ef8857c3508b2d00",
+            "username": "stephangroen"
+        },
+        "service": {
+            "hostname": "stephangroen.nl",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1414215556,
+    "expire_in": 157680000,
+    "prev": "690b3163f44e47fabeaf63cde9ba7424dc1aea454856a7af4793624eda24b89d",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMHnAnicO8LLzMDFuPg//46J2WzZjKcP/ChlCPE2b6lWSspPqVSyqlbKTgVTaZl5
+6alFBUWZeSVKVkrJ5mlJpoYpJmYpScbJlgYGpolGBimJScamZuZG5uZmhubJRgaJ
+JqnJSjpKGfnFIB1AY5ISi1P1MvOBYkBOfGYKUBSL+lKwhImZpVFykqFlUqKpsUWi
+hWVqmoWFqXmysamBRZJRioEBSGFxalFeYm4qUHVxSWpBRmJeelF+ap5SrY4SUKYs
+MzkV5G6Q9VhU6eXlAI0oKMovyU/OzwFKZpSUFFiB9JZUFoAUl6cmxUONiU/KzEsB
+eh+ooSy1qDgzP0/JyhCoMrkkE2SuoYmhiZGhqampmY5SakVBZlFqfCZIham5mYUB
+EICsSS0DGmlmaZBkbGhmnGZikmpinpaYlJqYZmacnJIK9KW5iZFJSrJhYmqiiamJ
+halZonlimom5pbGZkUlqSqKRSZKFZYoSyGOFeflKVsZAZyamg7yUmZ6XWFJalKpU
+e+hADAsDIxcDGysTKAIZuDgFYNHq+oL9v3d99teVUdY2myvvbPf3V+5VvvTSpiL4
+SMH1+smdfM5dfn86qyubxVh/6wi1Vt52vxBYez1DIvTI5ZudaaEPZW7vjVizXOD+
+qQNTD/ss/bi7okpwdeKj6sKa6AOP5jw+azP9tvBErpKzcyL2Lr2vuUbjX/HKeUtC
+9icVT1geWnN/1VsVgYK/WpvsmnsfPnD9ovMstPLfdBmF/A7xc5OFs+IFOTdm+DQ6
+yS16aG/iLRJlnypXUH3Qxbedc87kNR/3/9NK+PWW7VSSK3fBgl/JLE5XGnhPLOFx
+45S3CnpuKqna6qmRf10t+JcqV+yxLma55ct9r4g3u2hEsJQWrw3Su6Uj/XB52Rd3
+i4Qalh4AWJcR5Q==
+=TYhw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stephangroen
+
+==================================================================
