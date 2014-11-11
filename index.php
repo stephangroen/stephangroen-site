@@ -47,6 +47,6 @@
 <body>
 <h1>Stephan Groen</h1>
 <p class="follow">Volg mij op <a href="http://www.twitter.com/stephangroen">Twitter</a> of bezoek mijn profiel op <a href="http://www.linkedin.com/in/stephangroen">LinkedIn</a>.</p>
-<p class="company">Bekijk de website van <a href="http://www.logict.nl" style="color: #00B401">Logict</a>, makers van software zonder handleiding.</p><p class="company">Gemakkelijk, snel en digitaal factureren met <a href="http://www.earny.nl" style="color: #93117E">Earny, online factureren</a>.</p><p class="company"> <a href="http://www.picqer.com" style="color: #0078BE">Picqer, online voorraadbeheer</a>: Eindelijk echt eenvoudige software voor voorraadbeheer en orderpicking!</p>
+<p class="company"><a href="http://www.picqer.com" style="color: #0078BE">Picqer, online voorraadbeheer</a>: Eindelijk echt eenvoudige software voor voorraadbeheer en orderpicking!</p>
 </body>
 </html>
