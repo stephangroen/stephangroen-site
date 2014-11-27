@@ -5,6 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="author" content="Stephan Groen" />
+    <link rel="canonical" href="http://stephangroen.nl" />
 
     <title>Stephan Groen</title>
     <style type="text/css" media="screen">
