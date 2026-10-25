@@ -3,7 +3,7 @@ name: Deploy
 # Alleen bij een push naar master (niet bij pull requests), zodat de secrets niet bereikbaar zijn voor forks.
 on:
   push:
-    branches: [master, deploy-naar-boquila-prod]
+    branches: [master]
   workflow_dispatch:
 
 concurrency:
