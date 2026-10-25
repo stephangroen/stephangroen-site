@@ -24,6 +24,13 @@ a.inline:hover { text-decoration-color: #1B1B19; }
 .dot { width: 10px; height: 10px; border-radius: 50%; background: #2F6B4F; }
 main { display: flex; flex-direction: column; gap: 40px; padding: 64px 0; }
 h1 { margin: 0 0 0 -0.055em; font-size: clamp(56px, 12vw, 168px); line-height: 0.92; font-weight: 700; letter-spacing: -0.05em; }
+/* "Groen" kleurt van links naar rechts groen bij hover, als een blad dat uitloopt. */
+.groen { display: inline-block; padding: 0.02em 0.06em 0.08em 0; margin: -0.02em -0.06em -0.08em 0;
+  background: linear-gradient(90deg, #2F6B4F 50%, #1B1B19 50%) 100% 0 / 200% 100%;
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+  transition: background-position 0.9s cubic-bezier(0.22, 0.61, 0.36, 1); }
+.groen:hover { background-position: 0 0; }
+@media (prefers-reduced-motion: reduce) { .groen { transition: none; } }
 .intro { margin: 0; font-size: 22px; line-height: 1.5; color: #3A3A36; max-width: 520px; }
 footer { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px 32px; }
 footer nav { display: flex; flex-wrap: wrap; gap: 16px 32px; }
@@ -35,7 +42,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: 16px 32px; }
   <div class="brand"><span class="dot"></span><span>stephangroen.nl</span></div>
 
   <main>
-    <h1>Stephan<br>Groen</h1>
+    <h1>Stephan<br><span class="groen">Groen</span></h1>
     <p class="intro">Ondernemer en medeoprichter van <a class="inline" href="https://picqer.com">Picqer</a>, software waarmee webwinkels hun magazijn eenvoudig organiseren.</p>
   </main>
 
