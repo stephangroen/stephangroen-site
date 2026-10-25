@@ -38,7 +38,7 @@ footer a { color: #55554F; }
     <h1>Boquila<span>B.V.</span></h1>
     <div class="text">
       <p class="intro">De persoonlijke holding van <a class="inline" href="https://stephangroen.nl">Stephan Groen</a>.</p>
-      <p class="contact">Contact via <a class="inline" href="https://x.com/stephangroen">X</a> of <a class="inline" href="https://www.linkedin.com/in/stephangroen/">LinkedIn</a>.</p>
+      <p class="contact">Contact via <a class="inline" href="https://x.com/stephangroen" aria-label="X">𝕏</a> of <a class="inline" href="https://www.linkedin.com/in/stephangroen/">LinkedIn</a>.</p>
     </div>
   </main>
 

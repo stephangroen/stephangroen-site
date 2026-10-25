@@ -43,7 +43,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: 16px 32px; }
     <nav aria-label="Links">
       <a class="nav" href="https://www.linkedin.com/in/stephangroen/">LinkedIn</a>
       <a class="nav" href="https://github.com/stephangroen">GitHub</a>
-      <a class="nav" href="https://x.com/stephangroen">X</a>
+      <a class="nav" href="https://x.com/stephangroen" aria-label="X">𝕏</a>
     </nav>
     <a class="inline holding" href="https://boquila.nl">Boquila B.V.</a>
   </footer>
