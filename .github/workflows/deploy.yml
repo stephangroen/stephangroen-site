@@ -1,0 +1,36 @@
+name: Deploy
+
+# Alleen bij een push naar master (niet bij pull requests), zodat de secrets niet bereikbaar zijn voor forks.
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Prepare SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+
+      - name: Upload site
+        run: |
+          # Bewust zonder --delete: op de server staan bestanden die niet in git zitten (zoals elektra.html).
+          rsync -rlptz \
+            --exclude='.git/' --exclude='.github/' \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes" \
+            ./ stephangroen@${{ secrets.DEPLOY_HOST }}:app/
